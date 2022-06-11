@@ -1,5 +1,8 @@
 [board_design]: img/algyan-7th.png
 [board_sch]: img/algyan-7th-sch.png
+[esp32_pin_assign]: img/esp32_pin_assign.png
+[devkitc_pin_assign]: img/devkitc_pin_assign.png
+[pcf8674_pin_assign]: img/pcf8674_pin_assign.png
 
 # Board Info
 
@@ -7,9 +10,10 @@
 
 * [1. Board Design](#S1)
 * [2. Schematics](#S2)
-* [3. Body of Materials](#S3)
-  * [3-1. Parts set A(お手軽)](#S3-1)
-  * [3-2. Parts set B(手作りFULL)](#S3-2)
+* [3. Pin Assign](#S3)
+* [4. Body of Materials](#S4)
+  * [4-1. Parts set A(お手軽)](#S4-1)
+  * [4-2. Parts set B(手作りFULL)](#S4-2)
 
 ---
 
@@ -37,9 +41,24 @@ This board is designed by **Designed by EAGLE 9.6.2**.
 
 ---
 
-## <a name="S3">3. Body of Materials</a>
+## <a name="S3">3. Pin Assign</a>
 
-### <a name="S3-1">3-1. Parts set A(お手軽)</a>
+* Image(png) : **img/esp32_pin_assign.png**  
+    ![esp32_pin_assign][esp32_pin_assign]
+
+* Image(png) : **img/devkitc_pin_assign.png**  
+    ![devkitc_pin_assign][devkitc_pin_assign]
+
+* Image(png) : **img/pcf8674_pin_assign.png**  
+    ![pcf8674_pin_assign][pcf8674_pin_assign]
+
+[↑ Back to Index](#S0)
+
+---
+
+## <a name="S4">4. Body of Materials</a>
+
+### <a name="S4-1">4-1. Parts set A(お手軽)</a>
 
 |No.|部品名|型番・値|個数|購入リスト|種類|オンライン販売URL|
 |:-:|:---:|:------:|:-:|:--------:|:----|:---------------|
@@ -70,7 +89,7 @@ This board is designed by **Designed by EAGLE 9.6.2**.
 
 ---
 
-### <a name="S3-2">3-2. Parts set B(手作りFULL)</a>
+### <a name="S4-2">4-2. Parts set B(手作りFULL)</a>
 
 |No.|部品名|型番・値|個数|購入リスト|種類|オンライン販売URL|
 |:-:|:---:|:------:|:-:|:--------:|:----|:---------------|
