@@ -4,7 +4,7 @@ ALGYAN 7th IoT基板 (以下、ALGYAN基板) のFRAMにファイルシステム�
 
 ## ライブラリをインストールする
 
-FRAMFSライブラリは下記のGitHubリポジトリで公開しています。[リリース](https://github.com/lipoyang/FRAMFS/releases)からZIPファイルをダウンロードして解凍したフォルダをArduinoのlibrariesフォルダにファイルを配置してください。または、Arduino IDEで「スケッチ」→「ファイルをインクルード」→「.ZIP形式のライブラリをインストール」でZIPファイルを指定してインストールしてください。
+FRAMFSライブラリは下記のGitHubリポジトリで公開しています。[リリース](https://github.com/lipoyang/FRAMFS/releases)からZIPファイルをダウンロードして解凍したフォルダをArduinoのlibrariesフォルダに配置してください。または、Arduino IDEで「スケッチ」→「ファイルをインクルード」→「.ZIP形式のライブラリをインストール」でZIPファイルを指定してインストールしてください。
 
 * [https://github.com/lipoyang/FRAMFS/](https://github.com/lipoyang/FRAMFS/)
 
@@ -23,7 +23,7 @@ Serialにログ出力するので、シリアルターミナルで受信し、�
 
 FRAMFSライブラリはSDライブラリ(公式のSDカードライブラリ)とほとんど同じAPIを持っています。SDライブラリを使ったことがあれば、同じように使うことが出来ます。
 
-主な独自のメソッドのみここで説明します。SDライブラリと共通のメソッドについては[SDライブラリのリファレンス](https://www.arduino.cc/reference/en/libraries/sd/)を参照してください。
+主な独自のAPIのみここで説明します。SDライブラリと共通のAPIについては[SDライブラリのリファレンス](https://www.arduino.cc/reference/en/libraries/sd/)を参照してください。
 
 ### FRAMFS(size)
 コンストラクタではFRAMのサイズをkB単位で指定します。ALGYAN基板のFRAMは256kB(2Mbit)なので、256を指定します。
