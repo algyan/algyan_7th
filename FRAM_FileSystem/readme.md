@@ -4,7 +4,7 @@ ALGYAN 7th IoT基板 (以下、ALGYAN基板) のFRAMにファイルシステム�
 
 ## ライブラリをインストールする
 
-FRAMFSライブラリは下記のGitHubリポジトリで公開しています。[リリース](https://github.com/lipoyang/FRAMFS/releases)からZIPファイルをダウンロードしてArduinoのlibrariesフォルダにファイルを配置してください。または、Arduino IDEで「スケッチ」→「ファイルをインクルード」→「.ZIP形式のライブラリをインストール」でZIPファイルを指定してインストールしてください。
+FRAMFSライブラリは下記のGitHubリポジトリで公開しています。[リリース](https://github.com/lipoyang/FRAMFS/releases)からZIPファイルをダウンロードして解凍したフォルダをArduinoのlibrariesフォルダにファイルを配置してください。または、Arduino IDEで「スケッチ」→「ファイルをインクルード」→「.ZIP形式のライブラリをインストール」でZIPファイルを指定してインストールしてください。
 
 * [https://github.com/lipoyang/FRAMFS/](https://github.com/lipoyang/FRAMFS/)
 
